@@ -33,9 +33,10 @@ namespace zinhart
 	  std::cout << ")\n";
 	}
 
-  template <typename T>
+  template <typename Return_Type>
 	class functor {};
-  
+
+  // void specialization 
   template <typename... Params>
 	class functor<void(Params...)> 
 	{
