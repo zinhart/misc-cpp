@@ -1,1 +1,1 @@
-g++ -std=c++11 -o out compile.cpp
+g++ -std=c++11 -o out lazy_function_evaluation.cpp
